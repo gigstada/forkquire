@@ -8,7 +8,7 @@ Forkquire allows you to import a function exported from another file and invoke 
 
 ## Usage
 
-You can use forkquire like you use require to load modules that export a function. This is meant to be used whe you have a slow or resource-intensive function you want to run in a separate process for better performance or parallelizability. Here's an example of how you might do that:
+You can use forkquire like you use require to load modules that export a function. This is meant to be used when you have a slow or resource-intensive function you want to run in a separate process for better performance or parallelizability. Here's an example of how you might do that:
 
 **count-to-x.js**
 ```javascript
