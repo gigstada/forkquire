@@ -1,0 +1,1 @@
+module.exports = s => Promise.resolve(s.length);

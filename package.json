@@ -1,0 +1,38 @@
+{
+  "name": "forkquire",
+  "version": "0.1.0",
+  "description": "Require a module that exports a function and invoke that function in a new process.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gigstada/forkquire.git"
+  },
+  "keywords": [
+    "require",
+    "fork",
+    "process"
+  ],
+  "author": "Adam Gigstad",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/gigstada/forkquire/issues"
+  },
+  "homepage": "https://github.com/gigstada/forkquire#readme",
+  "dependencies": {
+    "callsites": "^2.0.0",
+    "errio": "^1.2.2",
+    "lodash": "^4.17.10",
+    "resolve": "^1.7.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^5.1.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
